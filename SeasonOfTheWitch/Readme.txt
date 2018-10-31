@@ -48,7 +48,8 @@ ToDo List
  - Add better investigation status descriptions to the Circumstantial Evidence starting item
 	 - Descriptions have been added and tested
 	 - BUT
-	 - Still need to 
+	 - Still need to decide what happens if investigators open the gate before finding the grotesque stone (alien statue)
+		 - May not want to worry about skipping the alien statue clue since not all paths require it to destroy the black book
 
  - Neet to sub item for EventPuzzlePowerFailureComplete3B_T9
 
