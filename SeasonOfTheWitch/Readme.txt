@@ -47,6 +47,8 @@ ToDo List
 
  - Add better investigation status descriptions to the Circumstantial Evidence starting item
 	 - Descriptions have been added and tested
+	 - BUT
+	 - Still need to 
 
  - Neet to sub item for EventPuzzlePowerFailureComplete3B_T9
 
@@ -54,15 +56,16 @@ ToDo List
 
  - Develop victory/defeat UI
 
- - Add scripting for Keziah custom monster
+ - Improve scripting for Keziah custom monster
 
  - General mythos improvements
 	 - Better mythos progression
-		- Started working on this with the MythosEvents.ini file events
+		- Started working on this with the eventsMythos.ini file events
 		- Could use some improvement to the EventMythos5_1C effect, possibly automation or revision
 
-	 - "Brown Jenkins" custom mythos events
+	 - "Brown Jenkins" custom mythos event needs implementation
 
 	 - Add to EventEndRoundSetMythos for better control of standard mythos vs custom mythos
 
-	 - Attempt to add some new puzzles, perhaps a less-complex power outage puzzle, or even a more-complex one
+ - Attempt to add some new puzzles, perhaps a less-complex power outage puzzle, or even a more-complex one
+	 - Made a custom 4x2 puzzle, but it could use some graphical refinements
