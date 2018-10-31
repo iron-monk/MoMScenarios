@@ -1,0 +1,418 @@
+.,English
+quest.name,Season of the Witch
+quest.description,"A conversion of the Mansions of Madness First Edition Print On Demand scenario ""Season of the Witch"".\n\nA bright young Miskatonic University student has disappeared having checked in to an infamous Arkham boarding house to study its reported supernatural properties. Now as the celebration Walpurgis Eve approaches you and your fellow investigators are tasked with venturing into the decaying Witch House and solving a mystery that has plagued Arkham for generations. But are you prepared to face the horrors that await you? Season of the Witch sends players on a tense and terrifying race against the clock. Can you solve the mysteries of the Witch House before they consume Arkham forever? \n\nNote that no evidence is provided in this scenario, as such insanity conditions which rely on evidence should not be used."
+quest.authors,Author\nRichard Launius\n\nConversion\nIronmonk
+EventStart.button1,Button1
+UIIntroText2.uitext,"Nola Mason - a bright young mathematics student attending Miskatonic University - is one of the many residents of the Witch House. Frank Elwood, anohter tenant, recently reported Nola had gone missing. Your case started there. Frank informed you that Nola had only moved into the low rent Witch House to explore a theory - she believed that Riemannian equations could bend time and space, opening gates to other places and dimensions, and something about the architecture of the Witch House intrigued her. Frank described how, over time, Nola became obsessed, secluding herself in different rooms to study the intricate angles of the house, and how she would ramble on about how she could finally prove her theory.\n\nBut then she started to make other wild claims, like how she spoke to old Keziah at night. She even claimed to see the witch's rat-like familiar, ""Brown Jenkins,"" who was the source of many urban legends concerning the Witch House.\n\nIt was with geniune fear that Frank begged you to find the missing girl before midnight strikes on the convenient occasion of Walpurgis Eve."
+UIIntroContinue2.uitext,Continue
+EventFrontPorchTile_T1.button1,Continue
+EventFrontPorchTile_T1.text,Place the {c:TileFrontPorch_T1} tile as indicated.
+UIIntroContinue1.uitext,Continue
+UIIntroContinue2.button1,Continue
+UIIntroText1.uitext,The frightened student's story was typical of the superstitious nature of most Arkham natives. Even the highly educated professors at Miskatonic University seemed to believe the place was cursed, haunted, or worse. The decaying eyesore was built in the late 1600s by Keziah Mason, a woman sentenced to death in Salem for allegedly practicing witchcraft. However, she mysteriously escaped the gallows and was never seen again. Her ancestral estate is now cleverly referred to as the Witch House, and legends circle around its gabled buttresses like flies on a corpse.\n\nIf only young Nola Mason's disappearance was such a legend.
+EventInvestigators_T1.button1,Continue
+EventPrologue.text,<i>It's evening by the time you arrive at the boarding house, having spent most of the day chasing the few leads  you gleaned from Frank's story - all to no avail. Darkness has fallen on Arkham and, like the locals, your mind begins to play tricks on you as you approach the ancient building. Fortunately, the residents of the Witch House have fled in fear of Walpurgis, leaving the house free for you to investigate.</i>
+EventFrontPorchSightTokens_T1.button1,Continue
+EventFrontPorchSightTokens_T1.text,Place a sight token as indicated.
+EventFrontPorchExploreTokens_T1.button1,Continue
+EventFrontPorchExploreTokens_T1.text,Place an Explore token as indicated.
+EventInvestigators_T1.text,Place investigators in the space shown.  Each investigator gains two Clue tokens.
+EventPrologue.button1,Continue
+EventStoryChoice4A.button1,Continue
+EventStoryChoice4B.button1,Continue
+EventStoryChoice3A.button1,Continue
+EventStoryChoice3B.button1,Continue
+EventStoryChoice2A.button1,Continue
+EventStoryChoice1A.button1,Continue
+EventStoryChoice1B.button1,Continue
+EventStoryChoice1C.button1,Continue
+EventStoryChoice2B.button1,Continue
+TokenFrontPorchSight_T1.text,A path leads to the side yard of the Witch House. An investigator in the {c:TileFrontPorch_T1} may reveal the adjacent area.
+TokenFrontPorchSight_T1.button1,Reveal
+EventBackYardTile_T2.button1,Continue
+EventBackYardExploreTokens_T2.button1,Continue
+TokenStorageShedSearch3B_T2.button1,{action} Explore
+EventStorageShedSearch3B_T2.button1,Continue
+EventStorageShedSearch3B_T2.text,<i>You find an ornate box on the storage shed work bench. Perhaps you can find a way to unlock the contents of the box.</i>\n\nTake the {c:QItemPuzzleBox} unique item. You may manipulate the item I  your inventory to attempt the puzzle. Remove the Search token.
+TokenStorageShedSearch3A_T2.text,The wall on this side of the storage shed appears to be irregular. You will need to find Nola's Journal in order to gain clues on how to search further.
+TokenStorageShedSearch3B_T2.text,Among the rusty tools on this bench, you notice a contrastingly clean looking box.
+TokenStorageShedSearch3A_T2.button1,{action} Explore
+EventStorageShedSarch3A_T2.text,<i>Nola's Journal gives you an idea of how to open the Irregular Wall. A mysterious gate opens before you.</i>\n\nPlace a secret door tile as indicated. Remove the Explore token.
+EventSkipIntroStoryRandom.button1,Button1
+EventStorageShedSearchTokens3A_T2.button1,Continue
+EventStorageShedSearchTokens3B_T2.text,Place a search token as indicated.
+EventStorageShedSearchTokens3B_T2.button1,Continue
+EventStorageShedSarch3A_T2.button1,Continue
+EventBackYardTile_T2.text,<i>The path leads to a small storage shed beside the entrance to the house.</i>\n\nPlace the {c:TileBackYard_T2} tile as indicated. Remove the Sight token.
+TokenStorageShedDoor_T2.text,The storage shed door could use a treatment of oil, but opening the door shouldn't prove to be a challenge.
+TokenStorageShedDoor_T2.button1,{action} Explore
+EventBackYardExploreTokens_T2.text,<i>A storage shed sits in the middle of the yard. The door to the shed sits crooked on it's ancient hinges.</i>\n\nPlace an Explore token as indicated.
+EventStorageShedSearchTokens3A_T2.text,Place a search token as indicated.
+TokenHallway2Door_T1.text,This door leads further into the mansion.
+TokenHallway2Door_T1.button1,{action} Explore
+EventHallway2Token_T1.text,<i>The door opens into a dimly lit hallway.</i>\n\nPlace the {c:TileHallway2_T3} tile as indicated. Remove the explore token.
+EventHallway2Token_T1.button1,Continue
+EventHallway2ExploreTokens_T3.text,Place three Explore tokens as indicated.
+EventHallway2ExploreTokens_T3.button1,Continue
+TokenCornerHallDoor_T3.text,The crystal knob on this door is cloudy from the touch of many hands over the years. The door leads to the East wing of the house.
+TokenCornerHallDoor_T3.button1,{action} Explore
+TokenAtticDoor_T3.text,A cold draft blows through the gap between this door and the floor. This door presumably leads to the Attic.
+TokenAtticDoor_T3.button1,{action} Explore
+TokenDiningRoomDoor_T3.text,A door at the far end of the hallway leads into the West wing of the house.
+TokenDiningRoomDoor_T3.button1,{action} Explore
+EventExploreMove1.text,The investigator may move 1 space into the explored area.
+EventExploreMove1.button1,Continue
+EventDiningRoomTile_T4.button1,Continue
+EventDiningRoomExploreTokens4A_T4.button1,Continue
+EventDiningRoomExploreTokens4B_T4.text,Place two explore tokens as indicated.
+EventDiningRoomSearchTokens4A_T4.text,<i>Lying on the dining room table, a leather bound book catches your eye.</i>\n\nPlace a search token as indicated.
+EventDiningRoomSearchTokens4A_T4.button1,Continue
+TokenDiningRoomSearch4A_T4.text,Lying on the dining room table, a leather bound book catches your eye.
+TokenDiningRoomSearch4A_T4.button1,{action} Search
+EventDiningRoomSearchTokens4B_T4.text,<i>A small wooden crate sits on the dining room credenza.</i>\n\nPlace a search token as indicated.
+EventDiningRoomSearchTokens4B_T4.button1,Continue
+TokenDiningRoomSearch4B_T4.text,You find a small wooden crate sealed by a clever combination lock.
+TokenDiningRoomSearch4B_T4.button1,{action} Attempt puzzle
+EventDiningRoomWallToken_T4.button1,Continue
+EventDiningRoomWallToken_T4.text,Place a wall token as indicated.
+EventDiningRoomExploreTokens4A_T4.text,Place two explore tokens as indicated.
+EventDiningRoomExploreTokens4B_T4.button1,Continue
+TokenKitchenStorageDoor4A_T4.text,The door is jammed. You grunt with effort as you try to force the door open. Test {strength}.
+TokenKitchenStorageDoor4A_T4.button1,{action} Explore
+TokenKitchenStorageDoor4B_T4.text,Two haunting eyes stare from the cracked door...\n\nThis door refuses to budge without Nola's Journal.
+TokenKitchenStorageDoor4B_T4.button1,{action} Explore
+TokenKitchenDoor_T4.text,This door leads to the kitchen area.
+TokenKitchenDoor_T4.button1,{action} Explore
+EventDiningRoomTile_T4.text,<i>A solitary candle flickers dimly on the dining room table.</i>\n\nPlace the {c:TileDiningRoom_T4} tile as indicated. Place a wall token as indicated. Remove the explore token.
+EventKitchenStorageExplore4A_T4.text,Your mass contacts the door solidly, which flexes and releases itself from its jamb. The storage area is mostly bare, but one shelf holds a few small items. Place a search token as indicated. Remove the explore token.
+EventKitchenStorageExplore4A_T4.button1,Continue
+EventKitchenStorageExplore4B_T4.text,The spectral guard standing watch at the door relents in the presence of Nola's journal. The door slowly creaks open, revealing the kitchen storage area. Place a search token as indicated. Remove the explore token.
+EventKitchenStorageExplore4B_T4.button1,Continue
+EventDiningRoomSearch4A_T4.text,"<i>Next to a plate with scraps of food remaining you find Nola's journal.</i>\n\nGain the {c:QItemNolasJournal} item as a placeholder and become focused. Nola's journal can be discarded to remove the ""Irregular Wall"" barrier. Remove the search token."
+EventDiningRoomSearch4A_T4.button1,Continue
+EventLockboxOpen.button1,Continue
+EventAtticTile_T5.text,The door opens to reveal a narrow staircase leading up into the house's dusty attic. Place the {c:TileAttic_T5} tile as indicated. Remove the explore token.
+EventAtticTile_T5.button1,Continue
+EventKitchenExploreTokens_T4.text,You are met with a musty smell as you pass through the doorway. Every surface in the Kitchen is sooty from heavy use of the wood stove. A cabinet door hangs partially open. Place a search token as indicated. Remove the explore token.
+EventKitchenExploreTokens_T4.button1,Continue
+TokenKitchenSearch_T4.button1,{action} Search
+EventKitchenSearch_T4.text,Upon opening the cabinet door, you notice a kitchen knife caked with dried blood. The uncertainty of blood's origin fills you with doubt. Suffer 1 facedown horror ({will} - 1 negates). Take 1 clue token. Remove the search token.
+TokenKitchenSearch_T4.text,An open cabinet door catches your eye.
+EventKitchenSearch_T4.button1,Continue
+TokenKitchenStorageDoor4A_T4.button2,Fail
+EventKitchenStorageExplore4AFail_T4.text,You strike the door solidly, damaging both the door and yourself. The wood splinters slightly, but does not give. Suffer 1 damage.
+EventKitchenStorageExplore4AFail_T4.button1,Continue
+TokenKitchenStorageSearch4A_T4.text,This shelf holds a few small items. There may be something of use here.
+EventKitchenStorageSearch4A_T4.button1,Continue
+EventKitchenStorageSearch4A_T4.text,The contents of the shelf are useless, except for one item. Take the {c:QItemSedatives} common item and flip one horror card face down. Remove this search token.
+TokenKitchenStorageSearch4A_T4.button1,{action} Search
+TokenKitchenStorageSearch4B_T4.button1,{action} Search
+EventKitchenStorageSearch4B_T4.button1,Continue
+TokenKitchenStorageSearch4B_T4.text,A pantry shelf sits to your left. It may contain something useful to your search.
+EventKitchenStorageSearch4B_T4.text,Fumbling through pantry items, your searching hands come upon a small alien statue. Gain the {c:QItemAlienStatue} item, 1 clue token and become focused. Remove the search token.
+EventSkipIntroStoryFixed.button1,Continue
+EventAtticSearchTokens3A_T5.text,The staircase leads up to a loft area, opening into a storage area.  Place two search tokens as indicated.
+EventAtticSearchTokens3A_T5.button1,Continue
+EventAtticSearchTokens3B_T5.button1,Continue
+EventPuzzlePowerFailureComplete3B_T9.text,As the room is illuminted, you notice something useful on a nearby shelf. Take the {c:QItemWitchCult} item. Remove the search token, as well as any darkness tokens in this room.
+EventAtticWallTokens_T5.text,Place a wall token as indicated.
+EventAtticWallTokens_T5.button1,Continue
+TokenAtticLoftSearch3A_T5.text,The power is out in this section of the attic, making it nearly impossible to see. You will have to repair the circuit in order to perform a meaningful search of the area.
+TokenAtticLoftSearch3A_T5.button1,{action} Attempt puzzle
+TokenAtticStorageSearch3A_T5.text,On top of an old barrel, a candle dimly casts light upon a box with ornately designed panels on one side.
+TokenAtticStorageSearch3A_T5.button1,{action} Search
+TokenAtticLoftSearch3B_T5.text,The wall on this side of the attic appears to be irregular. You will need to find Nola's Journal in order to gain clues on how to search further.
+TokenAtticLoftSearch3B_T5.button1,{action} Search
+TokenAtticStorageSearch3B_T5.text,The flickering light of a candle dances across the smooth contours of a human skull.
+TokenAtticStorageSearch3B_T5.button1,{action} Search
+EventPuzzlePowerFailureComplete3A_T5.text,As the room is illuminted, you notice something useful on a nearby shelf. Take the {c:QItemShotgun} item. Remove the search token, as well as any darkness tokens in this room.
+PuzzlePowerFailure.button1,Guess
+EventPuzzlePowerFailureComplete3A_T5.button1,Continue
+EventAtticStorageSearch3A_T5.text,Take the {c:QItemPuzzleBox} unique item. You may attempt to open the box by manipulating it in your inventory. Remove the search token.
+EventAtticStorageSearch3A_T5.button1,Continue
+EventPuzzleBoxInspect.text,By arranging the panels of this box into the proper order, you may be able to inspect it's contents.
+EventPuzzleBoxInspect.button1,{action} Attempt puzzle
+EventPuzzleBoxOpen3A.text,"As the last slider is moved into place, a latch is revealed allowing the box to be opened. Inside you find a tome titled ""De Vermis Mysteriis"". Discard the puzzle box item."
+PuzzlePuzzleBox.button1,Guess
+EventPuzzleBoxOpen3A.button1,Continue
+EventPuzzleBoxOpen3B.text,As the last slider is moved into place, a latch is revealed allowing the box to be opened. Inside your eyes are caught by the glint of tarnished steel. Take the {c:QItemShotgun} item. Discard the puzzle box item.
+EventPuzzleBoxOpen3B.button1,Continue
+EventAtticLoftSearch3B_T5.button1,Continue
+EventAtticLoftSearch3B_T5.text,Nola's Journal gives you an idea of how to open the Irregular Wall. A mysterious gate opens before you. \n\nPlace a secret door tile as indicated. Remove the Explore token.
+EventAtticStorageSearch3B_T5.button1,Continue
+EventCornerHallTile_T6.text,Place the {c:TileCornerHall_T6} tile as indicated. Remove the explore token.
+EventCornerHallTile_T6.button1,Continue
+EventAtticStorageSearch3B_T5.text,Take the ceremonial skull and sorcerous sphere items. Remove the search token.
+EventCornerHallExploreTokens4A_T6.button1,Continue
+TokenBathroom1Explore4A_T6.text,Two haunting eyes stare from the cracked door...\n\nThis door refuses to budge without Nola's Journal.
+TokenBathroom1Explore4A_T6.button1,{action} Explore
+TokenBathroom1Explore4B_T6.button1,{action} Explore
+TokenGuestBedroomDoor_T6.text,This door leads to the guest bedroom.
+TokenGuestBedroomDoor_T6.button1,{action} Explore
+EventBathroom1Explore4B_T6.button1,Continue
+EventBathroom1Explore4B_T6.text,Your mass contacts the door solidly, which flexes and releases itself from its jamb. The bathroom is mostly bare, but the medicine cabinet holds few small items. Place a search token as indicated. Remove the explore token.
+EventCornerHallExploreTokens4A_T6.text,Place two explore tokens as indicated.
+TokenBathroom1Search4B_T6.button1,{action} Search
+EventBathroom1Explore4BFail_T6.button1,Continue
+TokenBathroom1Search4B_T6.text,A medicine cabinet sits to your right. It may contain something useful to your search.
+EventBathroom1Explore4A_T6.button1,Continue
+TokenBathroom1Explore4B_T6.text,The door is jammed. You grunt with effort as you try to force the door open. Test {strength}.
+EventBathroom1Explore4BFail_T6.text,You strike the door solidly, damaging both the door and yourself. The wood splinters slightly, but does not give. Suffer 1 damage.
+TokenBathroom1Explore4B_T6.button2,Fail
+EventCornerHallSearchTokens_T6.button1,Continue
+EventBathroom1Explore4A_T6.text,The spectral guard standing watch at the door relents in the presence of Nola's journal. The door slowly creaks open, revealing a full bathroom. Place a search token as indicated. Remove the explore token.
+EventCornerHallSearchTokens_T6.text,Place a search token as indicated.
+TokenCornerHallSearch_T6.text,A portrait hangs on the wall of this hallway.
+TokenCornerHallSearch_T6.button1,{action} Search
+EventCornerHallSearch_T6.button1,Continue
+EventCornerHallSearch_T6.text,The person in this portrait looks eerily similar...to you! Gain 1 clue token and become mesmerized. Remove the search token.
+EventGuestBedroomTile_T7.text,Place the {c:TileGuestBedroom_T7} tile as indicated. Remove the explore token.
+EventGuestBedroomTile_T7.button1,Continue
+PuzzleLockbox.button1,{action} Guess
+EventGuestBedroomSearchTokens4A_T7.text,Place two search tokens as indicated.
+EventGuestBedroomSearchTokens4A_T7.button1,Continue
+EventGuestBedroomSearchTokens4B_T7.text,Place two search tokens as indicated.
+EventGuestBedroomSearchTokens4B_T7.button1,Continue
+TokenGuestBedroomSearch14B_T7.text,Lying on the night stand, a leather bound book catches your eye.
+TokenGuestBedroomSearch14B_T7.button1,{action} Search
+TokenGuestBedroomSearch14A_T7.text,You find a small wooden crate sealed by a clever combination lock.
+TokenGuestBedroomSearch14A_T7.button1,{action} Attempt puzzle
+EventLockboxOpen.text,<i>With a satisfying click the lockbox opens, revealing its contents.</i>\n\nTake the {c:QItemElderSign} item. Remove the search token.
+EventGuestBedroomSearch14B_T7.text,"On the nightstand, next to a freshly made bed, you find Nola's journal. Gain the {c:QItemNolasJournal} item as a placeholder and become focused. Nola's journal can be discarded to remove the ""Irregular Wall"" barrier. Remove the search token."
+EventGuestBedroomSearch14B_T7.button1,Continue
+TokenGuestBedroomSearch2_T7.text,Something of use may be in the linen closet.
+TokenGuestBedroomSearch2_T7.button1,{action} Search
+EventGuestBedroomSearch2_T7.text,You find nothing out of the ordinary. Remove the search token.
+EventGuestBedroomSearch2_T7.button1,Continue
+EventAtticLoftDarkness_T5.button1,Continue
+EventAtticLoftDarkness_T5.text,The power is out in this section of the attic. Place a darkness token where indicated.
+EventClue1A.text,"<i>Nola has been marked by the witch, tasked with luring more souls into the house.\n\nThe vile voice of the Rat-thing echoes through the house, “Soon your name will be etched in the Black Book next to Nola’s forever.”</i>\n\nThe investigators win if they destroy the ""Black Book"". This can be attempted by manipulating the {c:QItemBlackBook} item in the investsigators inventory."
+EventClue1A.button1,Continue
+EventClue1B.text,<i>Nola taunts you with a wicked expression on her young face, “You are too late, her body is mine!” She suddenly vanishes in a violet light that pulls you along.</i>\n\nKeziah has possessed Nola and will attempt to escape with her new flesh by moving back through the house, using the gate in the {c:TileMasterBed_T8} to return to the first dimension, then moving toward the {c:TileFrontPorch_T1}. The investigators lose if she is able to move off the edge of the {c:TileFrontPorch_T1} tile, escaping into the night.\n\nThe investigators win if they kill Keziah or an investigator with the {c:QItemBlackBook} and {c:QItemAlienStatue} spends an action in a space containing an alter ({c:TileCave1_T10} or {c:TileCeremonyRoom_T14}) and passes a test by interacting with the {c:QItemBlackBook} in the investigators' inventory.
+EventClue1B.button1,Continue
+EventClue1C.text,<i>A vision suddenly floods your mind - black-clad figures gather around the body of a young woman laying on a dark stone slab. The old witch stands above her chanting, holding an ornate dagger.</i>\n\nThe investigators win if they kill Keziah.
+EventClue1C.button1,Continue
+EventClue2A.text,<i>The vision, though brief, was clear - Nola was laid in a cavern-like room, under the shadow of a tower. An altar in the room held a black book, open and dripping with blood. Around Nola were several cloaked figures, swaying to rhythmic chanting.</i>
+EventClue2A.button1,Continue
+EventClue2B.text,<i>The vision, though brief, was clear - Nola stood beyond a chamber of dusty volumes near an altar that held a black book. Several cloaked and swaying figures chanted in a strange language behind her.</i>
+EventClue2B.button1,Continue
+EventClue3A.text,<i>The loathsome statue opens your mind to other places, other worlds, and other dimensions. You feel a rush of energy as your mind surges forward, summoning you to venture outside and into a small, rustic building.</i>
+EventClue3A.button1,Continue
+EventClue3B.text,<i>The statue tingles in your hands and you feel your spirit lift from your body and float toward a glowing portal in a loftier room of the witch house. As your spirit approaches the portal, you are suddenly pulled back into your body…</i>
+EventClue3B.button1,Continue
+EventClue4A.text,<i>The notes of the journal repeatedly mention the recent appearance of a bizarre statue. Nola writes that the thing was disturbing to look upon, but held some mystical power she wanted to study. The last time she saw the statue was when the landlord was taking it around the corner hall to be washed…</i>
+EventClue4A.button1,Continue
+EventClue4B.text,<i>Several pages of Nola’s journal are dedicated to the strange statue the landlord recently found in the attic. Her last entry states that just looking at the strange object made her feel ill and feverish while at dinner, so she hid it in the pantry.</i>
+EventClue4B.button1,Continue
+TokenBathroom1Search4A_T6.text,A towel is draped over an object on this cabinet.
+TokenBathroom1Search4A_T6.button1,{action} Search
+EventBathroom1Search4A_T6.text,Removing the towel from the medicine cabinet reveals a small alien statue. Gain the {c:QItemAlienStatue} item, 1 clue token and become focused. Remove the search token.
+EventBathroom1Search4A_T6.button1,Continue
+EventBathroom1Search4B_T6.text,The contents of the medicine cabinet are useless, except for one item. Take the {c:QItemSedatives} common item and flip one horror card face down. Remove this search token.
+EventBathroom1Search4B_T6.button1,Continue
+EventCornerHallExploreTokens4B_T6.text,Place two explore tokens as indicated.
+EventCornerHallExploreTokens4B_T6.button1,Continue
+EventMasterBedTile_T8.text,Place the {c:TileMasterBed_T8} tile as indicated.
+EventMasterBedTile_T8.button1,Continue
+EventMasterBedWallTokens_T8.text,Place a passage token as indicated. This is a direct travel link to and from the otherworldly gate.
+EventMasterBedWallTokens_T8.button1,Continue
+EventMasterBedExploreTokens_T8.text,Place three explore tokens as indicated.
+EventMasterBedExploreTokens_T8.button1,Continue
+EventMasterBedSearchTokens3A_T8.text,Place a search token as indicated.
+EventMasterBedSearchTokens3A_T8.button1,Continue
+EventMasterBedSearchTokens3B_T8.text,Place a search token as indicated.
+EventMasterBedSearchTokens3B_T8.button1,Continue
+TokenMasterBedSearch3A_T8.button1,{action} Search
+EventMasterBedSearch3A_T8.text,None of the papers are intelligible, but under them you find something useful. Gain the {c:QItemKnife} item. Remove the search token.
+TokenMasterBedSearch3A_T8.text,Papers are scattered across this night stand.
+EventMasterBedSearch3A_T8.button1,Continue
+TokenMasterBedSearch3B_T8.text,Something useful may be contained within this wardrobe.
+TokenMasterBedSearch3B_T8.button1,{action} Search
+EventMasterBedSearch3B_T8.text,A careful search reveals a useful item. Gain the {c:QItemElderWard} item. Remove the search token.
+EventMasterBedSearch3B_T8.button1,Continue
+TokenStudyDoor_T8.text,This door leads into the Study.
+TokenStudyDoor_T8.button1,{action} Explore
+EventStudyTile_T9.text,Place the {c:TileStudy_T9} tile as indicated. Remove the explore token.
+EventStudyTile_T9.button1,Continue
+EventStudyExploreTokens_T9.text,Place an explore token as indicated.
+EventStudyExploreTokens_T9.button1,Continue
+TokenCave1Door_T9.text,The door knob is cold to the touch. It seems as though this door leads outside the house.
+TokenCave1Door_T9.button1,{action} Explore
+EventStudySearchTokens3A_T9.text,Place a search token as indicated.
+EventStudySearchTokens3A_T9.button1,Continue
+TokenStudySearch3A_T9.text,A carved wooden box sits upon the book shelf here.
+TokenStudySearch3A_T9.button1,{action} Search
+EventStudySearch3A_T9.text,Take the Ceremonial Skull and Sorcerous Sphere items. Remove the search token.
+EventStudySearch3A_T9.button1,Continue
+EventStudyDarkness_T9.text,The power is out in this room of the study. Place a darkness token where indicated.
+EventStudyDarkness_T9.button1,Continue
+EventStudySearchTokens3B_T9.text,Place a search token as indicated.
+EventStudySearchTokens3B_T9.button1,Continue
+TokenStudySearch3B_T9.text,The power is out in this room of the study, making it nearly impossible to see. You will have to repair the circuit in order to perform a meaningful search of the area.
+TokenStudySearch3B_T9.button1,{action} Attempt puzzle
+EventAtticSearchTokens3B_T5.text,The staircase leads up to a loft area, opening into a storage area.  Place two search tokens as indicated.
+EventPuzzlePowerFailureComplete3B_T9.button1,Continue
+EventCave1Tile_T10.text,Place the {c:TileCave1_T10} tile as indicated. Remove the explore token.
+EventCave1Tile_T10.button1,Continue
+EventCave1InteractTokens2A_T10.button1,Continue
+TokenCave1Interact2A_T10.button1,{action} Interact
+TokenCave1Interact2A_T10.text,A strange swirling alien gate spans the width of the cave here. You may be able to interact with it.
+EventCave1Interact2A_T10.button1,Continue
+EventCave1SearchTokens2B_T10.text,Some sort of ritual has been arranged here. Candles illuminate a strange altar, on top of which is a large leather-bound book. Place a search token as indicated.
+TokenTowerDoor_T8.text,This door leads to the tower area.
+TokenTowerDoor_T8.button1,{action} Explore
+EventTowerTile_T11.text,Place the {c:TileTower_T11} tile as indicated. Remove the explore token.
+EventTowerTile_T11.button1,Continue
+EventTowerExploreTokens_T11.text,A long staircase leads up to a landing with a padlocked door. Place an explore token as indicated.
+EventTowerExploreTokens_T11.button1,Continue
+TokenTowerRoomDoor_T11.text,The door at the top of the stairs is padlocked, but the padlock has long since rusted through.
+TokenTowerRoomDoor_T11.button1,{action} Explore
+EventTowerSearchTokens_T11.text,A storage area is accessible from a landing midway up the stairs. Place a search token as indicated.
+EventTowerSearchTokens_T11.button1,Continue
+TokenTowerSearch_T11.text,Odds and ends are stashed throughout this storage room.
+TokenTowerSearch_T11.button1,{action} Search
+TokenHallway1Door_T8.text,This door leads deeper into the otherworld.
+TokenHallway1Door_T8.button1,{action} Explore
+EventTowerSearch_T11.text,While searching a high shelf, your hand stumbles upon something. Gain the {c:QItemTowerSearch_T11} item. Remove the search token.
+EventTowerSearch_T11.button1,Continue
+EventCave1InteractTokens2A_T10.text,Place an interact token as indicated.
+EventCave1Interact2A_T10.text,You wander into an alien gate and the last thing you comprehend is the hideous sound of a flute as funnel-like shapes rise from the shadows...\n\nYou are killed.
+EventCave1SearchTokens2B_T10.button1,Continue
+TokenCave1Search2B_T10.text,In the middle of a circle of burning candles is an alter, on top of which sits an open book.
+TokenCave1Search2B_T10.button1,{action} Search
+SpawnCave1Search2B_T10.text,A snarling dog-like creature guards this passageway. Spawn a Hound of Tindalos.
+SpawnCave1Search2B_T10.button1,Continue
+EventCave1Search2B_T10.text,Perched on top of the altar is a book bound in black leather. Gain the {c:QItemBlackBook} unique item and become focused. Remove the search token.
+EventCave1Search2B_T10.button1,Continue
+EventTowerRoomSearchTokens3A_T11.text,Place a search token as indicated. Remove the explore token.
+EventTowerRoomSearchTokens3A_T11.button1,Continue
+TokenTowerRoomSearch3A_T11.text,A book on this shelf catches your eye.
+TokenTowerRoomSearch3A_T11.button1,{action} Search
+EventTowerRoomSearch3A_T11.text,witch-cult in western Europe
+EventTowerRoomSearch3A_T11.button1,Continue
+EventTowerRoomSearchTokens3B_T11.text,Place a search token as indicated. Remove the explore token.
+EventTowerRoomSearchTokens3B_T11.button1,Continue
+TokenTowerRoomSearch3B_T11.text,A pile of boxes are stacked in the corner of the room.
+TokenTowerRoomSearch3B_T11.button1,{action} Search
+EventTowerRoomSearch3B_T11.text,Within one of the boxes, you find something that may aid your investigation. Gain the {c:QItemKnife} item.
+EventTowerRoomSearch3B_T11.button1,Continue
+EventHallway1Tile_T12.text,Place the {c:TileHallway1_T12} tile as indicated. Remove the explore token.
+EventHallway1Tile_T12.button1,Continue
+EventHallway1ExploreTokens_T12.text,Place an explore token as indicated.
+EventHallway1ExploreTokens_T12.button1,Continue
+TokenCave2Door_T12.text,This door leads to a cave system outside the walls of the house.
+TokenCave2Door_T12.button1,{action} Explore
+EventHallway1WallTokens_T12.text,Place a wall token as indicated.
+EventHallway1WallTokens_T12.button1,Continue
+EventHallway1SearchTokens_T12.text,Pace a search token as indicated.
+EventHallway1SearchTokens_T12.button1,Continue
+EventPrologue4A.button1,Continue
+EventInspectCurrentObjective.button1,Continue
+TokenHallway1Search_T12.text,A book has been left open on this table. The text is in an unfamiliar language, but you may attempt to decipher it.
+TokenHallway1Search_T12.button1,{action} Search
+EventHallway1Search_T12.text,After staring at the script for a few moments, patterns begin to emerge. Test {lore}.
+EventHallway1Search_T12.button1,Continue
+EventHallway1Search_T12.button2,Fail
+EventHallway1SearchPass_T12.text,The book speaks of experiments to unlock arcane power through the suffering of test subjects. Gain the {c:QItemHallway1Search_T12} item and suffer 1 facedown horror. Remove the search token.
+EventHallway1SearchPass_T12.button1,Continue
+EventHallway1SearchFail_T12.text,You begin to decipher the text, but your mind becomes entranced by a passage that very graphically describes a rather gruesome form of torture. Suffer 2 horror. Remove the search token.
+EventHallway1SearchFail_T12.button1,Continue
+EventCave2Tile_T13.text,Place the {c:TileCave2_T13} tile as indicated. Remove the explore token.
+EventCave2Tile_T13.button1,Continue
+EventCave2ExploreTokens_T13.text,Place an explore token as indicated.
+EventCave2ExploreTokens_T13.button1,Continue
+TokenCeremonyRoomDoor_T13.text,This door leads to the ceremony room.
+TokenCeremonyRoomDoor_T13.button1,{action} Explore
+EventCave2SearchTokens_T13.text,Place a search token as indicated.
+EventCave2SearchTokens_T13.button1,Continue
+TokenCave2Search_T13.text,Something appears odd about the wall opposite you in the shadows of this dimly lit cavern.
+TokenCave2Search_T13.button1,{action} Search
+EventCave2Search_T13.text,Stashed behind a false rock in the cave wall is something useful. Gain the {c:QItemCave2Search_T13} iem. Remove the search token.
+EventCave2Search_T13.button1,Continue
+EventCeremonyRoomTile_T14.text,Place the {c:TileCeremonyRoom_T14} as indicated. Remove the explore token.
+EventCeremonyRoomTile_T14.button1,Continue
+EventCeremonyRoomWallTokens_T14.text,Place a wall token as indicated.
+EventCeremonyRoomWallTokens_T14.button1,Continue
+EventCeremonyRoomSearchTokens2A_T14.button1,Continue
+TokenCeremonyRoomSearch2A_T14.text,In the middle of a circle of burning candles is an alter, on top of which sits an open book.
+EventCeremonyRoomSearch2A_T14.button1,Continue
+SpawnCeremonyRoomSearch2A_T14.text,A snarling dog-like creature guards this passageway. Spawn a Hound of Tindalos.
+TokenCeremonyRoomSearch2A_T14.button1,{action} Search
+EventCeremonyRoomSearch2A_T14.text,Perched on top of the altar is a book bound in black leather. Gain the {c:QItemBlackBook} unique item and become focused. Remove the search token.
+SpawnCeremonyRoomSearch2A_T14.button1,Continue
+EventCeremonyRoomInteractTokens2B_T14.text,Place an interact token as indicated.
+EventCeremonyRoomSearchTokens2A_T14.text,Some sort of ritual has been arranged here. Candles illuminate a strange altar, on top of which is a large leather-bound book. Place a search token as indicated.
+EventCeremonyRoomInteractTokens2B_T14.button1,Continue
+TokenCeremonyRoomInteract2B_T14.text,A strange swirling alien gate pulsates in the center of a circle of burning candles. You may be able to interact with it.
+TokenCeremonyRoomInteract2B_T14.button1,{action} Interact
+EventCeremonyRoomInteract2B_T14.text,You wander into an alien gate and the last thing you comprehend is the hideous sound of a flute as funnel-like shapes rise from the shadows...\n\nYou are killed.
+EventCeremonyRoomInteract2B_T14.button1,Continue
+EventInspectBlackBook.button1,Continue
+EventInspectBlackBookWithStatue1A.text,An investigator with both the {c:QItemAlienStatue} and {c:QItemBlackBook} items may attempt to destroy the {c:QItemBlackBook}.
+EventInspectBlackBookWithStatue1A.button2,{action} Attempt destroy
+EventInspectBlackBookWithoutStatue.text,You'll need to obtain the {c:QItemAlienStatue} item before you're able to attempt to manipulate the {c:QItemBlackBook}.
+EventInspectBlackBookWithoutStatue.button1,Continue
+EventInspectBlackBookDestroyAttempt1A.text,You gather yourself as you intently study the objects in your hand, looking for the proper method to destroy them. Test ({lore} - 3).
+EventInspectBlackBookDestroyFail1A.button1,Continue
+EventInspectBlackBookWithStatue1B.button1,Cancel
+EventInspectBlackBookDestroyPass1A.button1,Continue
+EventInspectBlackBookDestroyFail1A.text,You are not mentally prepared for the challenge of destroying the {c:QItemBlackBook}. Suffer 1 horror.
+EventInspectBlackBookDestroyAttempt1A.button1,Continue
+EventInspectBlackBookDestroyAttempt1A.button2,Fail
+EventInspectBlackBookDestroyPass1A.text,<i>The book sizzles as boiling blood floods from the pages. The old witch and her minions scream in horror and then fade from sight.</i>
+SpawnKeziah1B2A.text,Spawn Keziah (named Witch) in {c:TileCeremonyRoom_T14}.
+SpawnKeziah1B2A.button1,Continue
+SpawnKeziah1B2B.text,Spawn Keziah (named Witch) in {c:TileCave1_T10}.
+SpawnKeziah1B2B.button1,Continue
+CustomMonsterKeziah1B.info,-
+CustomMonsterKeziah1C.info,-
+CustomMonsterKeziah1C.monstername,Keziah Mason
+EventInspectBlackBookWithStatue1A.button1,Cancel
+EventInspectBlackBookDispelAttempt1B.text,You gather yourself as you intently study the objects in your hand, looking for the proper method to dispel the curse. Test ({lore} - 3).
+EventInspectBlackBookWithStatue1B.text,An investigator in either the {c:TileCave1_T10} or {c:TileCeremonyRoom_T14} with both the {c:QItemAlienStatue} and {c:QItemBlackBook} items may attempt to dispel the hold Keziah has over Nola.
+EventInspectBlackBookDispelAttempt1B.button1,Continue
+EventInspectBlackBookDispelAttempt1B.button2,Fail
+EventInspectBlackBookDispelPass1B.text,The spirit of Keziah is driven from the Witch House, and Nola has been saved.
+EventInspectBlackBookDispelPass1B.button1,Continue
+EventInspectBlackBookDispelFail1B.text,You attempt some incantations, but they seem to have no affect.
+EventInspectBlackBookDispelFail1B.button1,Continue
+EventInspectBlackBookWithStatue1B.button2,{action} Attempt dispel
+SpawnKeziah1C2A.text,Spawn Keziah (named Witch) in {c:TileCeremonyRoom_T14}.
+SpawnKeziah1C2A.button1,Continue
+SpawnKeziah1C2B.text,Spawn Keziah (named Witch) in {c:TileCave1_T10}.
+SpawnKeziah1C2B.button1,Continue
+EventCustomMonsterKeziah1B_Action1.button1,Continue
+EventCustomMonsterKeziah1B_Action1.button2,Keziah Escapes
+SpawnKeziah1B_Test.text,A witch appears!
+SpawnKeziah1B_Test.button1,Continue
+EventCustomMonsterKeziah1B_Escapes.button1,Continue
+EventKeziah1B_Killed.text,<i>The witch dies while croaking a final curse upon you.</i>
+EventCustomMonsterKeziah1B_Escapes.text,<i>You hear the old witch cackling as she escapes in her new flesh...</i>
+EventKeziah1C_Killed.text,You killed Keziah! You bastards!
+EventCustomMonsterKeziah1B_Action2.text,Keziah moves two spaces toward the edge of the {c:TileFrontPorch_T1} tile. If there is an investigator in range, she attacks.
+EventCustomMonsterKeziah1B_Activator.button1,Continue
+EventCustomMonsterKeziah1B_Action1.text,Kezia moves 4 spaces toward the {c:TileFrontPorch_T1} tile. If she is able to leave this tile along the path, Keziah escapes and the Investigators lose.
+EventCustomMonsterKeziah1B_Action2.button1,No Target
+EventCustomMonsterKeziah1B_Action2.button2,{action} Attack
+EventMythos1.text,<i>The old house is full of eerie sounds: terrifying creaks and groans that once sounded like nothing more than rats in the ancient partitions. But in the growing darkess of the evening, the unnatural noises have begun to take on a whole new ilfe...</i>\n\nEach investigator not in the Front Yard, Backyard, or Storage Shed must test {will}-1.\n\n<b>Fail:</b> Take 1 facedown horror.
+EventMythos1.button1,Continue
+EventMythos2.text,<i>The sound of maniacal cackling echoes through the walls, as if taunting you ton continue onward...</i>\n\nEach investogator that has at least 1 Mark of the Witch takes 1 horror.\n\nThen, all investigators that do not currently have any Mark of the Witch tokens receive 1 Mark of the Witch token.
+EventMythos2.button1,Continue
+EventMythos3.text,<i>The shuffling of rodents echoes throughout the house making it impossible to pinpoint the size of the swarm. Emerging from a particularly grossly entangled rat king, Brown Jenkins weaves through the investigators at high speed, adding to the terror of the moment before scurrying back into the darkness of the house.</i>\n\nEach investigator receives 1 Mark of the Witch token.
+EventMythos3.button1,Continue
+EventMythos4.text,<i>A sense of overwhelming dread floods over you. Time is short and more than one soul may be at risk this Walpurgis eve. Throwing caution to the wind, you rush forward...</i>\n\nEach investigator may choose to suffer 1 face up horror in order to move up to 3 spaces, following normal movement rules.
+EventMythos4.button1,Continue
+EventMythos5_1A.button1,Continue
+EventMythos5_1B.text,<i>The Walpurgis Ceremony comes to a violent end...\n\nKeziah possesses Nola's body and vanishes in a flash of light.</i>\n\nAll players lose.
+EventMythos5_1B.button1,Continue
+EventMythos5_1C.text,<i>The Walpurgis Ceremony comes to a violent end...</i>\n\nAt the start of each turn, place 1 time marker on this card if an investigator is in Keziah's room.\n\nWhen the third time token is placed on this card, all players lose the game.
+EventMythos5_1C.button1,Continue
+EventMythos5_1A.text,<i>The Walpurgis Ceremony comes to a violent end...</i>\n\nAll investigators test {will} (-1 for each Mark of the Witch)\n\n<b>Fail:</b> Take 3 face up horror.
+CustomMonsterKeziah1B.monstername,Keziah Mason
+EventMythosBrownJenkins.text,Broooooownroy Jennnnkinnnns!
+EventMythosBrownJenkins.button1,Continue
+EventPrologue4B.text,<i>As you make your way up the dirt path, you remember Frank continually referencing a journal that Nola kept. He claimed he never caught a look at it, because she would only write in it before sleeping...</i>
+EventPrologue4B.button1,Continue
+EventPrologue4A.text,<i>Frank's tale continues to nag at your mind as you make your way up the dirt path. You remember him telling you that Nola always kept a journal of her studies, and he last saw it during dinner the night before she disappeared...</i>
+EventKeziah1B_Killed.button1,Continue
+EventKeziah1C_Killed.button1,Continue
